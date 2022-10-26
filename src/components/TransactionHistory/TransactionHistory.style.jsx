@@ -21,7 +21,7 @@ export const Thead = styled.thead`
 
 export const Th = styled.th`
   border: 1px solid #aaaaaa;
-  border-radius: 10px;
+
   padding: 3px 2px;
   text-transform: uppercase;
   color: white;
