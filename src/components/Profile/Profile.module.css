@@ -1,0 +1,46 @@
+.profile {
+  margin: 5px;
+
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  /* border: 1px solid rgba(0, 0, 0, 0.779); */
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgba(192, 192, 192, 0.686);
+}
+
+.name {
+  font-weight: 900;
+  margin: 5px;
+}
+
+.tag {
+  composes: name;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.location {
+  composes: name;
+  font-weight: 400;
+}
+
+.stats {
+  border-top: 1px solid black;
+  list-style: none;
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+}
+.label {
+  color: silver;
+}
